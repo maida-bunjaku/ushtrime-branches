@@ -27,3 +27,50 @@ p{
 .container {
     padding: 0 60px;
 }
+
+.firstimg {
+    width: 320px;
+    height: 280px;
+    margin-top: 75px;
+}
+.secondimg {
+    width: 320px;
+    height: 370px;
+}
+.thirdimg {
+    width: 320px;
+    height: 280px;
+    margin-top: 75px;
+}
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    margin-top: 50px;
+}
+.names h2 {
+    font-size: 28px;
+}
+.names {
+    display: flex;
+    justify-content: center;
+    gap: 175px;
+}
+.table-div {
+     margin-top: 90px;
+}
+.theline {
+    width: 1220px;
+    height: 1px;
+    background-color: rgba(128, 128, 128, 0.749);
+    position: relative;
+    left: 100px;
+    top: 25px;
+}
+.person1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 220px; 
+    margin-top: 45px;
+}
