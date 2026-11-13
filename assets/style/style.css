@@ -27,7 +27,12 @@ p{
 .container {
     padding: 0 60px;
 }
-
+.second-section {
+    background-color: #1A1A29;
+    padding-top: 40px;
+    color: white;
+    padding-bottom: 40px;
+}
 .firstimg {
     width: 320px;
     height: 280px;
@@ -54,23 +59,61 @@ p{
 .names {
     display: flex;
     justify-content: center;
-    gap: 175px;
+    gap: 185px;
 }
-.table-div {
-     margin-top: 90px;
-}
+
 .theline {
-    width: 1220px;
+    width: 1230px;
     height: 1px;
-    background-color: rgba(128, 128, 128, 0.749);
+    background-color: rgba(128, 128, 128, 0.338);
     position: relative;
-    left: 100px;
+    left: 25px;
     top: 25px;
 }
 .person1 {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 220px; 
+    justify-content: space-between;
     margin-top: 45px;
+}
+.imageandtext {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+    right: 30px;
+}
+.container1 {
+    padding: 0 80px;
+}
+.backcolor-div {
+    background-color: black;
+    margin: 0 60px;
+    margin-top: 90px;
+    padding-top: 20px;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+.moveright {
+   position: relative;
+   right: 25px;
+}
+.secondclass {
+    position: relative;
+    left: 50px;
+}
+.move {
+    position: relative;
+    left: 30px;
+}
+.left {
+   position: relative;
+   left: 20px;
+}
+.right {
+    position: relative;
+    right: 20px;
+}
+.theh3 {
+    text-align: center;
+    margin-top: 38px;
 }
