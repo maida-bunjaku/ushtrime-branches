@@ -192,7 +192,7 @@ body {
 .display-mode {
     cursor: pointer;
 }
-
+   
 .second-section {
     background-color: #1A1A29;
     padding-top: 40px;
@@ -704,12 +704,6 @@ body {
 
 .f1foto{
     width: 1200px;
-}
-
-.drivers{
-    /* justify-content: first baseline; */
-    display: flex;
-    gap: 15px;
 }
 
 .navbar {
