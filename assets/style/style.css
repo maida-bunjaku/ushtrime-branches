@@ -117,3 +117,96 @@ p{
     text-align: center;
     margin-top: 38px;
 }
+.box1 h5 {
+    width: 210px;
+    padding: 5px;
+    background-color: #7DC2FF;
+    text-align: center;
+    color: black;
+    border-radius: 5px;
+}
+
+.box2 h5 {
+    width: 210px;
+    padding: 5px;
+    background-color: #7DC2FF;
+    text-align: center;
+    color: black;
+    border-radius: 5px;
+}
+
+.box3 h5 {
+    width: 210px;
+    padding: 5px;
+    background-color: #7DC2FF;
+    text-align: center;
+    color: black;
+    border-radius: 5px;
+}
+
+.box4 h5 {
+    width: 210px;
+    padding: 5px;
+    background-color: #7DC2FF;
+    text-align: center;
+    color: black;
+    border-radius: 5px;
+}
+.thefourboxes {
+    display: flex;
+    justify-content: center;
+     gap: 80px;
+     background-color: black;
+     padding: 20px;
+     margin-top: 50px;
+}
+.imgclass1 {
+    position: relative;
+    right: 40px;
+}
+.imgclass2 {
+    position: relative;
+    right: 20px;
+}
+.imgclass3 {
+    position: relative;
+    right: 40px;
+}
+.imgclass4 {
+    position: relative;
+    right: 20px;
+}
+
+.imgclass5 {
+    position: relative;
+    right: 20px;
+}
+.imgclass6 {
+    position: relative;
+    right: 40px;
+}
+
+.thecountry1 {
+    position: relative;
+    right: 50px;
+}
+.thecountry2 {
+    position: relative;
+    left: 1px;
+}
+.thecountry3 {
+    position: relative;
+    right: 50px;
+}
+.thecountry4 {
+    position: relative;
+    right: 10px;
+}
+.thecountry5 {
+    position: relative;
+    left: 10px;
+}
+.thecountry6 {
+    position: relative;
+    left: 10px;
+}
