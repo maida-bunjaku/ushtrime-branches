@@ -150,6 +150,7 @@ body {
 .app-badges img {
     height: 35px;
     width: auto;
+    border-radius: 7px;
 }
 
 .tagat {
@@ -805,4 +806,10 @@ margin-left: 12px;
 
 .first-part container{
     display: flex;
+}
+
+.drivers{
+    display: flex;
+    padding-bottom: 30px;
+    gap: 15px;
 }
