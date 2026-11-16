@@ -364,9 +364,7 @@ margin-left: 12px;
     display: flex;
     flex-direction: row;
 }
-.text-only {
-    margin-top: 90px;
-}
+
 .box1 h5 {
     width: 210px;
     padding: 5px;
@@ -784,14 +782,17 @@ margin-left: 12px;
     bottom: 10px;
 }
 .first-section .image {
-      margin-top: 55px;
-      margin-left: 150px;
+      margin: 0 auto;
+      max-width: 1200px;
+      width: 100%;
 }
 .first-section {
      background-color: #1A1A29;
 }
 .first-part{
     margin-top: 110px;
+    display: flex;
+    justify-content: space-around;
 }
 .textovertheimg img {
     width: 590px;
