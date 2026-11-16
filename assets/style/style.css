@@ -28,6 +28,189 @@ p{
 .container {
     padding: 0 60px;
 }
+.second-section {
+    background-color: #1A1A29;
+    padding-top: 40px;
+    color: white;
+    padding-bottom: 40px;
+}
+.firstimg {
+    width: 320px;
+    height: 280px;
+    margin-top: 75px;
+}
+.secondimg {
+    width: 320px;
+    height: 370px;
+}
+.thirdimg {
+    width: 320px;
+    height: 280px;
+    margin-top: 75px;
+}
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    margin-top: 50px;
+}
+.names h2 {
+    font-size: 28px;
+}
+.names {
+    display: flex;
+    justify-content: center;
+    gap: 185px;
+}
+
+.theline {
+    width: 1230px;
+    height: 1px;
+    background-color: rgba(128, 128, 128, 0.338);
+    position: relative;
+    left: 25px;
+    top: 25px;
+}
+.person1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+.imageandtext {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+    right: 30px;
+}
+.container1 {
+    padding: 0 80px;
+}
+.backcolor-div {
+    background-color: black;
+    margin: 0 60px;
+    margin-top: 90px;
+    padding-top: 20px;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+.moveright {
+   position: relative;
+   right: 25px;
+}
+.secondclass {
+    position: relative;
+    left: 50px;
+}
+.move {
+    position: relative;
+    left: 30px;
+}
+.left {
+   position: relative;
+   left: 20px;
+}
+.right {
+    position: relative;
+    right: 20px;
+}
+.theh3 {
+    text-align: center;
+    margin-top: 38px;
+}
+.box1 h5 {
+    width: 210px;
+    padding: 5px;
+    background-color: #7DC2FF;
+    text-align: center;
+    color: black;
+    border-radius: 5px;
+}
+
+.box2 h5 {
+    width: 210px;
+    padding: 5px;
+    background-color: #7DC2FF;
+    text-align: center;
+    color: black;
+    border-radius: 5px;
+}
+
+.box3 h5 {
+    width: 210px;
+    padding: 5px;
+    background-color: #7DC2FF;
+    text-align: center;
+    color: black;
+    border-radius: 5px;
+}
+
+.box4 h5 {
+    width: 210px;
+    padding: 5px;
+    background-color: #7DC2FF;
+    text-align: center;
+    color: black;
+    border-radius: 5px;
+}
+.thefourboxes {
+    display: flex;
+    justify-content: center;
+     gap: 80px;
+     background-color: black;
+     padding: 20px;
+     margin-top: 50px;
+}
+.imgclass1 {
+    position: relative;
+    right: 40px;
+}
+.imgclass2 {
+    position: relative;
+    right: 20px;
+}
+.imgclass3 {
+    position: relative;
+    right: 40px;
+}
+.imgclass4 {
+    position: relative;
+    right: 20px;
+}
+
+.imgclass5 {
+    position: relative;
+    right: 20px;
+}
+.imgclass6 {
+    position: relative;
+    right: 40px;
+}
+
+.thecountry1 {
+    position: relative;
+    right: 50px;
+}
+.thecountry2 {
+    position: relative;
+    left: 1px;
+}
+.thecountry3 {
+    position: relative;
+    right: 50px;
+}
+.thecountry4 {
+    position: relative;
+    right: 10px;
+}
+.thecountry5 {
+    position: relative;
+    left: 10px;
+}
+.thecountry6 {
+    position: relative;
+    left: 10px;
+}
 
 
 body {
