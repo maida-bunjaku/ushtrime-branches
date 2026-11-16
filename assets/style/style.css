@@ -28,6 +28,147 @@ p{
 .container {
     padding: 0 60px;
 }
+
+
+body {
+    background-color: #000;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px 20px;
+}
+
+.Container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.editor {
+    font-size: 1.6rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-bottom: 24px;
+}
+
+
+.foto {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(180px, auto);
+    gap: 20px;
+}
+
+.card {
+    background-color: #151821;
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.card-content {
+    padding: 14px 16px;
+    background-color: #151821;
+}
+
+.card-content p {
+    font-size: 0.85rem;
+    font-weight: 700;
+    line-height: 1.35;
+    color: #ffffff;
+}
+
+.large-card {
+    grid-column: span 2;
+    grid-row: span 2;
+    min-height: 400px;
+}
+
+.large-card .card-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.6) 60%, transparent 100%);
+    padding: 24px 20px;
+}
+
+.large-card .card-content h3 {
+    font-size: 1.25rem;
+    font-weight: 800;
+    line-height: 1.3;
+    color: #ffffff;
+}
+
+.wide-card {
+    grid-column: span 2;
+}
+
+
+.season-section {
+    margin-top: 50px;
+}
+
+.red-stripes {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 24px;
+}
+
+.stripe {
+    background-color: #e10600;
+    height: 10px;
+    width: 100%;
+    transform: skewX(-25deg);
+}
+
+.stripe.short {
+    width: 85%;
+}
+
+.season-title {
+    font-size: 2.2rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-bottom: 16px;
+}
+
+.season-nav {
+    display: flex;
+    gap: 24px;
+}
+
+.season-nav span {
+    font-size: 0.85rem;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    color: #7b7e85;
+    cursor: pointer;
+}
+
+.season-nav span.active,
+.season-nav span:hover {
+    color: #ffffff;
+}
+
+
+.f1foto{
+    width: 1200px;
+}
+
 .navbar {
     display: flex;
     gap: 12px;
