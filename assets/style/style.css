@@ -30,7 +30,7 @@ p{
 
 
 body {
-    background-color: #0b0c10;
+    background-color: #000;
     color: #ffffff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 40px 20px;
@@ -162,3 +162,9 @@ body {
 .season-nav span:hover {
     color: #ffffff;
 }
+
+
+.f1foto{
+    width: 1200px;
+}
+
