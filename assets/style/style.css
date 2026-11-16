@@ -518,6 +518,12 @@ body {
     width: 1200px;
 }
 
+.drivers{
+    /* justify-content: first baseline; */
+    display: flex;
+    gap: 15px;
+}
+
 .navbar {
     display: flex;
     gap: 12px;
