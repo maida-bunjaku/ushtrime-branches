@@ -363,9 +363,7 @@ margin-left: 12px;
     display: flex;
     flex-direction: row;
 }
-.text-only {
-    margin-top: 90px;
-}
+
 .box1 h5 {
     width: 210px;
     padding: 5px;
@@ -791,6 +789,7 @@ margin-left: 12px;
 }
 .first-part{
     margin-top: 110px;
+    display: flex;
 }
 .textovertheimg img {
     width: 590px;
