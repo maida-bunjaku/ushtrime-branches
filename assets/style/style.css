@@ -412,7 +412,7 @@ margin-left: 12px;
 }
 .names {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 150px;
 }
 
