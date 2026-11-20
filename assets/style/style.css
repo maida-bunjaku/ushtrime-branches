@@ -801,3 +801,34 @@ margin-left: 12px;
 .first-part container{
     display: flex;
 }
+.carteam1 {
+    position: relative;
+    left: 60px;
+}
+.carteam2 {
+    position: relative;
+    left: 30px;
+}
+.carteam3 {
+    position: relative;
+    left: 35px;
+}
+.carteam4 {
+    position: relative;
+    left: 25px;
+}
+.carteam5 {
+    position: relative;
+    left: 44px;
+}
+.carteam6 {
+    position: relative;
+    left: 60px;
+}
+hr {
+    border: none;
+    height: 2px;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.623);
+    margin-top: 10px;
+}
